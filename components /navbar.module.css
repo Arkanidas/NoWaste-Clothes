@@ -1,0 +1,11 @@
+.Navigation{
+    height: 7.4em;
+    width: 100%;
+    position: relative;
+    top:0;
+    color:rgb(64, 210, 58);
+}
+
+.Border{
+    background-color: rgb(73, 255, 70);
+}

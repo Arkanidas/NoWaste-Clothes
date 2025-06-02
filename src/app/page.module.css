@@ -1,4 +1,14 @@
 .page {
-
+background-color: blue;
 }
 
+.paragraph {
+  color: rgb(0, 0, 0);
+  font-size: 3.2rem;
+  line-height: 1.5;
+  margin: 20px;
+  position: relative;
+  top: 60px;
+  width: 400px;
+
+}

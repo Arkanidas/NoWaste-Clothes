@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from "../components /navbar.module.css";
+import styles from "../components/navbar.module.css";
 import logo from '../public/nowaste logo.png'
 
   // <Image src={logo} alt="NoWaste Logo" className={styles.logo} width={10} height={10}/>

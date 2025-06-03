@@ -2,40 +2,49 @@
     height: 5em;
     width: 50%;
     position: relative;
-    top:20px;
+    top:30px;
     left:50%;
     transform: translateX(-50%);
-  z-index: 1000;
+    z-index: 100000;
+   position:sticky;
+  top:30px;
 }
 
 .navlist{
   background-color: rgb(5, 137, 23);
-border-radius: 40px;
+  border-radius: 40px;
   list-style: none;
   height: 100%;
   display: flex;
-  align-items: center; /* Vertical centering */
-  justify-content: space-evenly; /* Even spacing between links */
+  align-items: center; 
+  justify-content: space-evenly; 
   gap: 20px;
-  z-index: 1000;
+  z-index: 1000000;
+  
+
 
 }
 
-
+.logo{
+  position:absolute;
+      z-index: 1000;
+      margin:10px 30px
+}
 
 .links{
     position: static;
+
 
 }
 
 .links a {
   color: white;
   text-decoration: none;
-  font-size: 1.3rem; /* Bigger font */
-  font-weight: 600; /* Semi-bold */
+  font-size: 1.3rem; 
+  font-weight: 600;
   transition: color 0.3s ease;
 }
 
 .links a:hover {
-  color: #d4ffcc; /* Light green on hover */
+  color: #d4ffcc;   
 }

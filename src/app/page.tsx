@@ -41,16 +41,58 @@ export default function Home() {
     <img src="/man.png" alt="Get Rewards" />
     <h3>Plockning</h3>
     <p>
-      Efter att vi har arrangerat en tid och plats för hämtning, kommer vårt team att komma till din plats och hämta dina saker. 
+      Efter att vi har arrangerat en tid och plats för hämtning, kommer vårt team att komma till din plats och hämta dina saker som du förberett. 
     </p>
   </div>
+ </div>
+</div>
 
+<div className={styles.workwallpaper2}>
+<p className={styles.header}>Vad kan du Donera?</p>
+
+<div className={styles.iconGrid}>
+  <div className={styles.iconItem}>
+    <div className={styles.circle}>
+      <img src="/shoe.png" alt="Shoes" />
+    </div>
+    <p>Skor</p>
   </div>
+  <div className={styles.iconItem}>
+    <div className={styles.circle}>
+      <img src="/stationary.png" alt="Stationery" />
+    </div>
+    <p>Pappersvaror</p>
+  </div>
+  <div className={styles.iconItem}>
+    <div className={styles.circle}>
+      <img src="/bag.png" alt="Bags" />
+    </div>
+    <p>Väskor</p>
+  </div>
+  <div className={styles.iconItem}>
+    <div className={styles.circle}>
+      <img src="/shirt.png" alt="Clothes" />
+    </div>
+    <p>Kläder</p>
+  </div>
+  <div className={styles.iconItem}>
+    <div className={styles.circle}>
+      <img src="/sofa.png" alt="Furniture" />
+    </div>
+    <p>Möbler</p>
+  </div>
+</div>
+</div>
+
+
+<div className={styles.workwallpaper3}>
+
+
+
 
 
 
 </div>
-
 
     </div>
   );

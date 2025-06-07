@@ -28,11 +28,24 @@
 
 .workwallpaper{
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-color: #edebeb;
 }
 
 
+.workwallpaper2{
+    width: 100%;
+    height: 650px;
+    background-color: #ffffff;
+  
+}
+
+.workwallpaper3{
+    width: 100%;
+    height: 650px;
+    background-color: #edebeb;
+  
+}
 
 
 .workcontainer {
@@ -68,4 +81,68 @@
   font-size: 1rem;
   color: #333;
   line-height: 1.4;
+}
+
+.iconGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  align-items: center;
+  gap: 40px;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.iconItem {
+  text-align: center;
+  width: 100px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #07ae0f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.circle img {
+  width: 50%;
+  height: auto;
+}
+
+.iconItem p {
+  font-weight: 600;
+  color: #05790a;
+  font-size: 1rem;
+}
+
+/* ✅ Responsive scaling instead of collapsing */
+@media (max-width: 767px) {
+  .iconGrid {
+    gap: 25px;
+  }
+
+  .iconItem {
+    width: 80px;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .circle img {
+    width: 50%;
+  }
+
+  .iconItem p {
+    font-size: 0.9rem;
+  }
 }

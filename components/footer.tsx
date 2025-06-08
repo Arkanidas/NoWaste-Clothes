@@ -20,7 +20,6 @@ export default function Footer() {
           </a>
         </div>
         <div className={styles.footerText}>
-          <p>Kontakta oss: kontakt@nowaste.se</p>
           <p>&copy; {new Date().getFullYear()} Nowaste. Alla rättigheter förbehållna.</p>
         </div>
       </div>

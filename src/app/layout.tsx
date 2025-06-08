@@ -35,13 +35,16 @@ export default function RootLayout({
      </head>
 
       <body>
+
+        <div className="pageContainer">
           <Navbar/>
             
-        {children}
+       <main className="content">{children}</main>
 
         <Footer/>
-         
+         </div>
       </body>
+      
     </html>
   );
 }

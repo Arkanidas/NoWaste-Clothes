@@ -12,7 +12,7 @@ export default function Home() {
   
   
   return (
-    <div style={{ height:"2500px" }}>
+    <div>
 <Imagebanner/>
 
 <div className={styles.workwallpaper}>
@@ -87,13 +87,50 @@ export default function Home() {
 
 <div className={styles.workwallpaper3}>
 
+<p className={styles.header}>Varför donera via Nowaste?</p>
 
+ <div className={styles.reasonGrid}>
+    <div className={styles.reasonItem}>
+      <img src="/good.png" alt="Convenient" />
+      <h4>Bekvämlighet</h4>
+      <p>En väldigt bekvämlig och simpel process där du enkelt kan kontakta oss via vår kontaktsida och sedan boka ett möte smidigt via oss</p>
+    </div>
 
+    <div className={styles.reasonItem}>
+      <img src="/good2.png" alt="Feel Good" />
+      <h4>Feel good faktor</h4>
+      <p>Att ge får dig att kännas bättre som bidrar till positivitet kring dig och andra</p>
+    </div>
 
+    <div className={styles.reasonItem}>
+      <img src="/good3.png" alt="Valued Donations" />
+      <h4>Dina donationer är värdefulla</h4>
+      <p>Vi ser till att dina gamla tillhörigheter kommer till nytta hos andra som verkligen behöver dem</p>
+    </div>
+
+    <div className={styles.reasonItem}>
+      <img src="/good4.png" alt="Transparency" />
+      <h4>Transparant process</h4>
+      <p>Dina donationer verifieras och går igenom vår betrodda partner för granskning innan avsändning</p>
+    </div>
+
+    <div className={styles.reasonItem}>
+      <img src="/good6.png" alt="Surprise Rewards" />
+      <h4>Bli belönad! </h4>
+      <p>Ju mer du donerar via oss desto mer kommer du kunna gynnas av våra förutsättningar såsom kuponger & feedback från barnen</p>
+    </div>
+
+    <div className={styles.reasonItem}>
+      <img src="/good5.png" alt="Eco Friendly" />
+      <h4>Rädda miljön</h4>
+      <p>Slipp att tänka på vad du ska göra med gamla ägodelar och rädda miljön istället genom att ge dem nytt liv till behövande människor</p>
+    </div>
+  </div>
+</div>
 
 
 </div>
 
-    </div>
+ 
   );
 }

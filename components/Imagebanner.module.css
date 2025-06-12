@@ -1,22 +1,22 @@
-.bannerContainer {
-
+.BannerContainer{
+  position: relative;
   width: 100%;
-  height: 80vh; 
+  height: 80vh;
   overflow: hidden;
-  z-index: 0; 
+  z-index: 0;
   margin-top: -80px;
-
 }
+
 
 .swiper {
   width: 100%;
   height: 100%;
+  
 }
 
 .bannerImage {
   width: 100%;
   height: 100%;
-  object-fit:cover;
   display: block;
 }
 
@@ -25,6 +25,49 @@
   justify-content: center;
   align-items: center;
   background: transparent;
+}
+
+.BannerHeader {
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  text-align: center;
+  z-index: 100000000;
+}
+
+.BannerDescription {
+  position:absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top:280px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: clamp(1.8rem, 5vw, 2.1rem);
+  color: rgb(236, 100, 15);
+  text-align: center;
+  z-index: 100000;
+  font-style: italic;
+}
+
+.BannerButton {
+  position: absolute;
+  top: 470px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 30px;
+  width: 250px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: rgb(236, 100, 15);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  z-index: 1000000;
 }
 
 

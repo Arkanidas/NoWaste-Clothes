@@ -10,12 +10,15 @@ import styles from './Imagebanner.module.css';
 
 export default function ImageBanner() {
   return (
-    <div className={styles.bannerContainer}>
+    <div className={styles.BannerContainer}>
+       <h1 className={styles.BannerHeader}>NOWASTE</h1>
+      <h2 className={styles.BannerDescription}>För en god gärning åt framtida barn</h2>
+      <button className={styles.BannerButton}>Donera</button>
+      <div/>
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation 
         slidesPerView={1}
-        
         autoplay={{
           delay: 10000,
           disableOnInteraction: false,
@@ -23,6 +26,9 @@ export default function ImageBanner() {
         loop={true}
         className={styles.swiper}
       >
+
+
+
        <SwiperSlide key="africa-1">
           <img src="/image.png" alt="Slide 1" className={styles.bannerImage} />
         </SwiperSlide >
@@ -35,6 +41,7 @@ export default function ImageBanner() {
           <img src="/don.png" alt="Slide 3" className={styles.bannerImage} />
         </SwiperSlide>
       </Swiper>
+     
     </div>
   );
 }

@@ -81,6 +81,12 @@ export default function Home() {
     </div>
     <p>Möbler</p>
   </div>
+  <div className={styles.iconItem}>
+    <div className={styles.circle}>
+      <img src="/electronics.png" alt="Furniture" />
+    </div>
+    <p>Elektronik</p>
+  </div>
 </div>
 </div>
 

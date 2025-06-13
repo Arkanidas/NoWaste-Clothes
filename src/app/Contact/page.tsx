@@ -1,6 +1,6 @@
 import styles from "../Contact/contact.module.css";
 
-export default function About() {
+export default function Contact() {
   return (
     <>
    <h3 className={styles.header}>Kontakta oss</h3>

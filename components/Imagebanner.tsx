@@ -2,6 +2,7 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
+import { useRouter } from 'next/navigation';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import styles from './Imagebanner.module.css';
@@ -9,11 +10,14 @@ import styles from './Imagebanner.module.css';
 
 
 export default function ImageBanner() {
+
+  const router = useRouter();
+
   return (
     <div className={styles.BannerContainer}>
        <h1 className={styles.BannerHeader}>NOWASTE</h1>
       <h2 className={styles.BannerDescription}>För en god gärning åt framtida barn</h2>
-      <button className={styles.BannerButton}>Donera</button>
+      <button className={styles.BannerButton}  onClick={() => router.push('/Donate')}>Donera</button>
       <div/>
       <Swiper
         modules={[Navigation, Autoplay]}

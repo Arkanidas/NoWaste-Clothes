@@ -4,7 +4,7 @@ export default function Donate() {
   return (
     <>
      <div className={styles.workwallpaper}>
-      <p className={styles.header}>Hur Jobbar vi?</p>
+      <p className={styles.header}>Vad behöver du göra?</p>
 
 
   <div className={styles.workcontainer}>

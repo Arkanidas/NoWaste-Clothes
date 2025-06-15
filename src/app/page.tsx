@@ -22,15 +22,14 @@ export default function Home() {
   <div className={styles.workcontainer}>
 <div className={styles.workstep}>
     <img src="/man.png" alt="Schedule a Pickup" />
-    <h3>Förberedelse</h3>
+    <h3>Boka Tid </h3>
     <p>
-      Förbered dina saker som du vill donera. Se till att de är rena och i gott skick. 
-      Om du har kläder, se till att de är tvättade och vikta. Om du har möbler, se till att de är i bra skick.
+     Du kontaktar oss via vår kontaktsida på kontaktformuläret och berättar vad du vill donera samt dina kontaktuppgifter för hämtning.
     </p>
   </div>
 
   <div className={styles.workstep}>
-    <img src="/man.png" alt="Donate at your Doorstep" />
+    <img src="/man.png" alt="Donate at your Doorstep"/>
     <h3>Boka tid</h3>
     <p>
       Boka en tid hos oss genom vår kontakt länk och berätta mer om vad du vill donera så anordnar vi en hämtning.

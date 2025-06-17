@@ -34,6 +34,19 @@ export default function Donate() {
   </div>
  </div>
 </div>
+
+<div className={styles.formContainer}>
+  <h2 className={styles.formHeader}>Boka Hämtning</h2>
+  <form className={styles.form}>
+    <input type="text" placeholder="Namn" required />
+    <input type="tel" placeholder="Telefonnummer" required />
+    <input type="text" placeholder="Adress" required />
+    <textarea placeholder="Vad vill du donera?" rows={4}></textarea>
+    <button type="submit">Skicka</button>
+  </form>
+</div>
+
+
     </>
   );
 }

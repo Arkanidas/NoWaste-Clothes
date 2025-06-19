@@ -40,7 +40,7 @@ export default function Home() {
     <img src="/man.png" alt="Get Rewards" />
     <h3>Plockning</h3>
     <p>
-      Efter att vi har arrangerat en tid och plats för hämtning, kommer vårt team att komma till din plats och hämta dina saker som du förberett. Du behöver inte vara utanför
+      Efter att vi har arrangerat en tid och plats för hämtning, kommer vårt team att komma till din plats och hämta dina saker som du förberett. Du behöver inte vara utanför dörren, vi kan hämta sakerna direkt från din dörr.
     </p>
   </div>
  </div>

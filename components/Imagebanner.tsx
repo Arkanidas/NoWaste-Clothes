@@ -17,7 +17,7 @@ export default function ImageBanner() {
     <div className={styles.BannerContainer}>
        <h1 className={styles.BannerHeader}>NOWASTE</h1>
       <h2 className={styles.BannerDescription}>För en god gärning åt framtida barn</h2>
-      <button className={styles.BannerButton}  onClick={() => router.push('/Donate')}>Donera</button>
+      <button className={styles.BannerButton}  onClick={() => router.push('/Donate')}>Donera Nu</button>
       <div/>
       <Swiper
         modules={[Navigation, Autoplay]}

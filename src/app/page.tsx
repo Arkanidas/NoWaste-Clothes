@@ -3,10 +3,6 @@ import styles from "./page.module.css";
 import Imagebanner from "../../components/Imagebanner";
 
 
-
-
-
-
 export default function Home() {
 
   

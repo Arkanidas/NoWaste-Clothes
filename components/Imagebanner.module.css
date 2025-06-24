@@ -43,11 +43,11 @@
 .BannerDescription {
   position:absolute;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  top:280px;
+  top:290px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: clamp(1.8rem, 5vw, 2.1rem);
-  color: rgb(236, 100, 15);
+  font-size: clamp(2rem, 5vw, 2.1rem);
+  color: rgb(255, 115, 28);
   text-align: center;
   z-index: 100000;
   font-style: italic;

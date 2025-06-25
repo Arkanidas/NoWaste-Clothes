@@ -30,9 +30,6 @@ export default function ImageBanner() {
         loop={true}
         className={styles.swiper}
       >
-
-
-
        <SwiperSlide key="africa-1">
           <img src="/image.png" alt="Slide 1" className={styles.bannerImage} />
         </SwiperSlide >

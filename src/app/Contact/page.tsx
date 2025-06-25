@@ -9,7 +9,6 @@ export default function Contact() {
 
 <div className={styles.contactContainer}>
 
-
   <div className={styles.contactItem}>
   <img src="/phone.png" alt="Donate at your Doorstep" />
   <h4 className={styles.contactheader}>Prata med oss</h4>
@@ -21,10 +20,6 @@ export default function Contact() {
     <h4 className={styles.contactheader}>Skriv till oss</h4>
      <p className={styles.contactInfo}>kontakt@nowaste.se</p>
     </div>
-
-
-
-
 </div>
     </>
   );

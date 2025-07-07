@@ -6,7 +6,7 @@ export default function About() {
        <h3 className={styles.header}>Om oss</h3>
        <img className={styles.image} src="/about.png" alt="About Us" />
       <p className={styles.description}>
-        Idel Förening grundades 2019 aha
+        Idel Förening grundades 2019 aha idell org
       </p>
     </>
   );

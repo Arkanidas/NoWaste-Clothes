@@ -127,9 +127,7 @@ export default function Home() {
       <p>Slipp att tänka på vad du ska göra med gamla ägodelar och rädda miljön istället genom att ge dem nytt liv till behövande människor</p>
     </div>
   </div>
-</div>
-
-
+ </div>
 </div>
 
  
